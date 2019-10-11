@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { Typography } from "@material-ui/core";
-import ReusableSnackbar from "./ReusableSnackbar";
-import ClickableComponent from "./ClickableComponent";
+import ReusableSnackbarByMui from "./ReusableSnackbarByMui";
+import Buttons from "./Buttons";
 
 class App extends Component {
   render() {
     return (
       <div>
         <Typography>App</Typography>
-        <ClickableComponent />
-        <ReusableSnackbar />
+        <Buttons />
+        <ReusableSnackbarByMui />
       </div>
     );
   }
